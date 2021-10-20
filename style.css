@@ -1,0 +1,145 @@
+/* Utilities */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(./img/pattern-background-desktop.svg) hsl(225, 100%, 94%) no-repeat;
+  font-family: "Red Hat", sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 5rem;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
+.container {
+  background: url(./img/illustration-hero.svg) #fff no-repeat;
+  width: 375px;
+  height: 700px;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+.title,
+.jargon {
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.title {
+  color: hsl(223, 47%, 23%);
+}
+.annual-title,
+.annual-change,
+.jargon {
+  color: hsl(224, 23%, 55%);
+}
+.annual-title,
+.annual-price,
+.jargon {
+  font-size: 16px;
+}
+.btn-proceed {
+  background: hsl(245, 75%, 52%);
+  color: #fff;
+}
+.annual-section > .annual-change:hover {
+  transition: all 0.2s;
+  color: hsl(223, 47%, 23%);
+}
+.btn-proceed:hover {
+  transition: all 0.2s;
+  background: hsl(224, 23%, 55%);
+}
+.btn-cancel:hover {
+  transition: all 0.2s;
+  color: hsl(223, 47%, 23%);
+}
+.annual-section {
+  height: 55px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+}
+/* Desktop style */
+/* Jargon and title */
+.title {
+  font-weight: 900;
+  padding-top: 15rem;
+}
+.jargon {
+  margin-top: 1.5rem;
+}
+/* Annual section */
+.annual-section {
+  margin-top: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.annual-plan {
+  margin-left: -1rem;
+}
+.music-icon {
+  margin-right: -4rem;
+}
+.annual-plan {
+  margin-left: 2rem;
+}
+.annual-title {
+  margin-top: 0.25rem;
+  font-weight: 700;
+}
+.annual-price {
+  margin-top: 0.75rem;
+}
+.annual-change {
+  margin-top: 1rem;
+  margin-left: 0.75rem;
+  margin-right: 0.15rem;
+}
+/* Button section */
+.button-container {
+  margin-top: 6rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn-proceed {
+  border: none;
+  height: 2.5rem;
+  cursor: pointer;
+  border-radius: 15px;
+  font-weight: 700;
+  /* box-shadow: 0 5px 3px -3px hsl(225, 100%, 98%); */
+}
+.btn-cancel {
+  border: none;
+  background: none;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+/* Mobile style */
+@media only screen and (min-width: 375px) and (max-width: 825px) {
+  .container {
+    width: 350px;
+  }
+  /* Annual section */
+  .annual-plan {
+    margin-left: 4rem !important;
+  }
+  .annual-change {
+    margin-left: 0.4rem;
+    margin-top: 1rem;
+  }
+}
