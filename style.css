@@ -19,7 +19,7 @@ body {
 }
 .container {
   background: url(./img/illustration-hero.svg) #fff no-repeat;
-  width: 350px;
+  width: 375px;
   height: 700px;
   margin-top: 5rem;
   margin-left: auto;
@@ -64,6 +64,7 @@ body {
 .annual-section {
   height: 55px;
   background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
 }
 /* Desktop style */
 /* Jargon and title */
@@ -82,9 +83,14 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.annual-plan {
+  margin-left: -1rem;
+}
 .music-icon {
-  margin-left: 1.5rem;
   margin-right: -4rem;
+}
+.annual-plan {
+  margin-left: 2rem;
 }
 .annual-title {
   margin-top: 0.25rem;
@@ -94,8 +100,9 @@ body {
   margin-top: 0.75rem;
 }
 .annual-change {
-  margin-top: 0.5rem;
-  margin-right: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 0.75rem;
+  margin-right: 0.15rem;
 }
 /* Button section */
 .button-container {
@@ -124,12 +131,15 @@ body {
 }
 /* Mobile style */
 @media only screen and (min-width: 375px) and (max-width: 825px) {
+  .container {
+    width: 350px;
+  }
   /* Annual section */
-  .music-icon {
-    margin-left: 0.45rem;
-    margin-right: 0.65rem;
+  .annual-plan {
+    margin-right: -1rem;
   }
   .annual-change {
-    margin-right: 0.2rem;
+    margin-left: 0.4rem;
+    margin-top: 1rem;
   }
 }
