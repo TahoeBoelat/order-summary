@@ -10,5 +10,5 @@ Reference:
 - https://stackoverflow.com/questions/1935820/set-ahover-based-on-class
 
 # Links
--Solution URL: <a href="https://github.com/TahoeBoelat/order-summary/">Github Repository</a>
--Live site url: <a href="https://alfi-order-summary.netlify.app/">Live site url</a>
+- Solution URL: <a href="https://github.com/TahoeBoelat/order-summary/">Github Repository</a>
+- Live site url: <a href="https://alfi-order-summary.netlify.app/">Live site url</a>
