@@ -1,0 +1,7 @@
+# order-summary
+Order summary challenge from Front-End Mentor
+
+Hi everyone. It's almost one year since i was graduated and 2021 almost over and im still unemployment lol :sad:. Anyway im developing again my front-end skill. It takes a time but im not sure if it's success
+Long story short it's just a static page made by HTML and CSS.
+
+Thank you
