@@ -5,6 +5,6 @@ Hi everyone. It's almost one year since i was graduated and 2021 almost over and
 
 Thank you
 
-Reference
-https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile
-https://stackoverflow.com/questions/1935820/set-ahover-based-on-class
+Reference:
+- https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile
+- https://stackoverflow.com/questions/1935820/set-ahover-based-on-class
