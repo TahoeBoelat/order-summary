@@ -76,7 +76,7 @@ body {
 }
 /* Annual section */
 .annual-section {
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-left: 3rem;
   margin-right: 3rem;
   display: flex;
@@ -87,7 +87,7 @@ body {
   margin-right: -4rem;
 }
 .annual-title {
-  margin-top: 0.25rem
+  margin-top: 0.25rem;
   font-weight: 700;
 }
 .annual-price {
@@ -99,7 +99,7 @@ body {
 }
 /* Button section */
 .button-container {
-  margin-top: 3rem;
+  margin-top: 6rem;
   margin-left: 3rem;
   margin-right: 3rem;
   display: flex;
@@ -112,6 +112,7 @@ body {
   cursor: pointer;
   border-radius: 15px;
   font-weight: 700;
+  /* box-shadow: 0 5px 3px -3px hsl(225, 100%, 98%); */
 }
 .btn-cancel {
   border: none;
@@ -129,6 +130,6 @@ body {
     margin-right: 0.65rem;
   }
   .annual-change {
-    margin-right: -0.55rem;
+    margin-right: 0.2rem;
   }
 }
