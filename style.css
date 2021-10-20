@@ -136,7 +136,7 @@ body {
   }
   /* Annual section */
   .annual-plan {
-    margin-left: 10rem;
+    margin-left: 4rem !important;
   }
   .annual-change {
     margin-left: 0.4rem;
